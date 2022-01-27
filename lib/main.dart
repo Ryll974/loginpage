@@ -51,13 +51,10 @@ class LoginPage extends StatelessWidget {
             ),
             Expanded(
               flex: 1,
-              child: SizedBox(
-                width: 200,
-                child: Divider(
-                  color: Colors.lightBlueAccent,
-                  height: 50,
-                  thickness: 4,
-                ),
+              child: Divider(
+                color: Colors.lightBlueAccent,
+                height: 50,
+                thickness: 4,
               ),
             ),
             Expanded(
@@ -134,13 +131,10 @@ class LoginPage extends StatelessWidget {
                     ))),
             Expanded(
               flex: 1,
-              child: SizedBox(
-                width: 200,
-                child: Divider(
-                  color: Colors.lightBlueAccent,
-                  height: 50,
-                  thickness: 4,
-                ),
+              child: Divider(
+                color: Colors.lightBlueAccent,
+                height: 50,
+                thickness: 4,
               ),
             ),
             Expanded(
@@ -202,13 +196,10 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              width: 200,
-              child: Divider(
-                color: Colors.lightBlueAccent,
-                height: 50,
-                thickness: 4,
-              ),
+            Divider(
+              color: Colors.lightBlueAccent,
+              height: 50,
+              thickness: 4,
             ),
             Text(
               "Choisissez un identifiant :",
@@ -266,16 +257,13 @@ class RegisterPage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              width: 500,
-              child: Container(
-                margin: const EdgeInsets.fromLTRB(20, 10, 20, 10),
-                decoration: new BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.all(Radius.circular(28))),
-                child: Row(
-                  children: [],
-                ),
+            Container(
+              margin: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+              decoration: new BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(28))),
+              child: Row(
+                children: [],
               ),
             ),
             TextButton(
@@ -295,13 +283,10 @@ class RegisterPage extends StatelessWidget {
                     fontFamily: 'Dongle',
                   ),
                 )),
-            SizedBox(
-              width: 200,
-              child: Divider(
-                color: Colors.lightBlueAccent,
-                height: 50,
-                thickness: 4,
-              ),
+            Divider(
+              color: Colors.lightBlueAccent,
+              height: 50,
+              thickness: 4,
             ),
             TextButton(
                 onPressed: () {
@@ -312,7 +297,8 @@ class RegisterPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(28), // <-- Radius
                   ),
                   primary: Colors.white,
-                  backgroundColor: Colors.blueAccent.shade700, // Background Color
+                  backgroundColor:
+                      Colors.blueAccent.shade700, // Background Color
                 ),
                 child: Text(
                   " Retour à la page login ...",
