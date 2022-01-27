@@ -211,7 +211,7 @@ class RegisterPage extends StatelessWidget {
               ),
             ),
             Text(
-              "identifiant :",
+              "Choisissez un identifiant :",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 40.0,
@@ -244,7 +244,7 @@ class RegisterPage extends StatelessWidget {
               ),
             ),
             Text(
-              "Mot de passe :",
+              "Choississez un mot de passe :",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 40.0,
@@ -288,7 +288,7 @@ class RegisterPage extends StatelessWidget {
                   backgroundColor: Colors.green, // Background Color
                 ),
                 child: Text(
-                  " S'enregistrer'",
+                  " S'enregistrer",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 40.0,
@@ -315,7 +315,7 @@ class RegisterPage extends StatelessWidget {
                   backgroundColor: Colors.deepPurpleAccent, // Background Color
                 ),
                 child: Text(
-                  " Page login ...",
+                  " Retour à la page login ...",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 40.0,
