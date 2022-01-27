@@ -155,7 +155,7 @@ class LoginPage extends StatelessWidget {
                       ),
                       primary: Colors.white,
                       backgroundColor:
-                          Colors.deepPurpleAccent, // Background Color
+                          Colors.blueAccent.shade700, // Background Color
                     ),
                     child: Text(
                       " S'enregistrer",
@@ -312,7 +312,7 @@ class RegisterPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(28), // <-- Radius
                   ),
                   primary: Colors.white,
-                  backgroundColor: Colors.deepPurpleAccent, // Background Color
+                  backgroundColor: Colors.blueAccent.shade700, // Background Color
                 ),
                 child: Text(
                   " Retour à la page login ...",
