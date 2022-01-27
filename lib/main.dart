@@ -244,7 +244,7 @@ class RegisterPage extends StatelessWidget {
               ),
             ),
             Text(
-              "Choississez un mot de passe :",
+              "Choisissez un mot de passe :",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 40.0,
